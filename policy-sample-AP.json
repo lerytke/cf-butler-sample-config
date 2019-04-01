@@ -2,6 +2,6 @@
     "description": "Remove stopped applications that are older than some duration from now and restricted to whitelisted organizations",
     "state": "stopped",
     "from-duration": "PT30S",
-    "delete-services": true,
-    "organization-whitelist": [ "pivot-cphillipson" ]
+    "delete-services": false,
+    "organization-whitelist": [ "system" ]
 }
